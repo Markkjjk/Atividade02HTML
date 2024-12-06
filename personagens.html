@@ -3,102 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagina Inicial</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>DmC - Personagens</title>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>Devil May Cry BR</h1>
+    <h1><img src="images/logo3.png" width="300" height="200" alt="Vergil"></h1>
   </header>
   <nav>
     <ul>
-      <li><a href="index.html">Inicio</a></li>
+      <li><a href="index.html">Início</a></li>
       <li><a href="personagens.html">Personagens</a></li>
       <li><a href="armas.html">Armas</a></li>
+      <li><a href="combos.html">Combos</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
     </ul>
   </nav>
   <main>
     <div class="historia">
-        <fieldset>
-          
-            <table border="5">
-              <tr>
-                <th>Personagem</th>
-                <th>Primeira Aparição</th>
-                <th>Tipo</th>
-                <th>Raça</th>
-                <th>Nível de Força</th>
-              </tr>
-              <tr>
-                <td>Dante</td>
-                <td>Devil May Cry 1</td>
-                <td>Espadachim</td>
-                <td>Nefilim</td>
-                <td>SS+</td>
-              </tr>
-              <tr>
-                <td>Vergil</td>
-                <td>Devil May Cry 3</td>
-                <td>Espadachim</td>
-                <td>Nefilim</td>
-                <td>SS</td>
-              </tr>
-              <tr>
-                <td>Sparda</td>
-                <td>Devil May Cry 1</td>
-                <td>Espadachim</td>
-                <td>Demônio</td>
-                <td>SSS+</td>
-              </tr>
-              <tr>
-                <td>Nero</td>
-                <td>Devil May Cry 4</td>
-                <td>Espadachim</td>
-                <td>Hibrido, Humano/Demônio</td>
-                <td>S</td>
-              </tr>
-              <tr>
-                <td>V</td>
-                <td>Devil May Cry 5</td>
-                <td>Mago</td>
-                <td>Humano</td>
-                <td>S</td>
-              </tr>
-            </table>
-          
-          </fieldset>
-          
-      
-      </div>  
-    
-      <center><img src="images/imagem1.png" width="300" height="200" alt="Dante ">
-        <img src="images/imagem2.png" width="300" height="200" alt="Vergil">
-        <img src="images/imagem5.jfif" width="300" height="200" alt="Sparda">
-        <img src="images/imagem4.jpg" width="300" height="200" alt="Nero">
-        <img src="images/imagem3.jpg" width="300" height="200" alt="V">
-        
-      </center>
-  
-        <form action="#" method="post">
-        <fieldset>
-          <label for="personagem_favorito">Qual Deles é seu personagem favorito ?</label><br>
-          <br>
-          <input type="radio" id="dante" name="personagem_favorito" value="Dante">
-          <label for="dante">Dante</label><br>
-          <input type="radio" id="vergil" name="personagem_favorito" value="Vergil">
-          <label for="vergil">Vergil</label><br>
-          <input type="radio" id="sparda" name="personagem_favorito" value="Sparda">
-          <label for="sparda">Sparda</label><br>
-          <input type="radio" id="nero" name="personagem_favorito" value="Nero">
-          <label for="nero">Nero</label><br>
-          <input type="radio" id="v" name="personagem_favorito" value="V">
-          <label for="v">V</label><br>
-        
-        </fieldset>
-        <button type="submit">Enviar</button>
-      </form>        
+      <h2><em>Personagens populares</em></h2>
+      <fieldset>
+        <table>
+          <tr>
+            <th>Personagem</th>
+            <th>Primeira Aparição</th>
+            <th>Tipo</th>
+            <th>Raça</th>
+            <th>Nível de Força</th>
+          </tr>
+          <tr>
+            <td>Dante</td>
+            <td>Devil May Cry 1</td>
+            <td>Espadachim</td>
+            <td>Nefilim</td>
+            <td>SS+</td>
+          </tr>
+          <tr>
+            <td>Vergil</td>
+            <td>Devil May Cry 3</td>
+            <td>Espadachim</td>
+            <td>Nefilim</td>
+            <td>SS</td>
+          </tr>
+          <tr>
+            <td>Sparda</td>
+            <td>Devil May Cry 1</td>
+            <td>Espadachim</td>
+            <td>Demônio</td>
+            <td>SSS+</td>
+          </tr>
+          <tr>
+            <td>Nero</td>
+            <td>Devil May Cry 4</td>
+            <td>Espadachim</td>
+            <td>Híbrido, Humano/Demônio</td>
+            <td>S</td>
+          </tr>
+          <tr>
+            <td>V</td>
+            <td>Devil May Cry 5</td>
+            <td>Mago</td>
+            <td>Humano</td>
+            <td>S</td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
 
-    
+    <div class="imagens">
+      <img src="images/imagem1.png"  alt="Dante">
+      <img src="images/imagem2.png"  alt="Vergil">
+      <img src="images/imagem5.jfif" alt="Sparda">
+      <img src="images/imagem4.jpg" alt="Nero">
+      <img src="images/imagem3.jpg" alt="V">
+    </div>
+
+    <form action="#" method="post" class="formulario">
+      <h2><em>Qual seu favorito ?</em></h2>
+      <fieldset>
+        <label>
+          <input type="radio" id="dante" name="personagem_favorito" value="Dante">
+          Dante
+        </label>
+        <label>
+          <input type="radio" id="vergil" name="personagem_favorito" value="Vergil">
+          Vergil
+        </label>
+        <label>
+          <input type="radio" id="sparda" name="personagem_favorito" value="Sparda">
+          Sparda
+        </label>
+        <label>
+          <input type="radio" id="nero" name="personagem_favorito" value="Nero">
+          Nero
+        </label>
+        <label>
+          <input type="radio" id="v" name="personagem_favorito" value="V">
+          V
+        </label>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
   </main>
+  <footer>
+    <div class="footer-content">
+      <p><b><h4>Projeto desenvolvido pelo aluno Marcos Cabral</h4></b>Contato: mcb9@aluno.ifnmg.edu.br</p>
+    </div>
+  </footer>
 </body>
 </html>
